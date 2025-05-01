@@ -1,3 +1,8 @@
 function saluta() {
-    alert("Ciao! Grazie per aver visitato il mio sito.");
+    Swal.fire({
+        title: "Benvenuto!",
+        text: "Grazie per aver visitato il mio sito.",
+        icon: "success",
+        confirmButtonText: "OK"
+    });
 }

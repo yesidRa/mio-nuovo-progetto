@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="it">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nuovo progettoi</title>
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-<h1>Benvenuto nel mio nuovo progetto!</h1> 
+    <title>Nuovo Progetto Responsive</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chi siamo</a></li>
+            <li><a href="#">Contatti</a></li>
+        </ul>
+    </nav>
 
-<button onclick="saluta()">Cliccami!</button>
+    <div class="container">
+        <h1>Benvenuto nel mio nuovo progetto!</h1>
+        <p>Questa pagina è ottimizzata per dispositivi mobili.</p>
+        <button onclick="saluta()">Cliccami!</button>
+    </div>
 
-<script src="script.js"></script>
-  </body>
+    <script src="script.js"></script>
+</body>
 </html>
