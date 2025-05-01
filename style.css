@@ -1,8 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    padding: 50px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1612832020735-0b3f6b6b5b8c');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 h1 {
